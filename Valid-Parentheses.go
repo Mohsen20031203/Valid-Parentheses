@@ -29,3 +29,15 @@ s consists of parentheses only '()[]{}'.
 */
 
 package main
+
+import "fmt"
+
+func isValid(s string) bool {
+	fmt.Println(s)
+	return true
+}
+
+func main() {
+
+	isValid("mohsen")
+}
